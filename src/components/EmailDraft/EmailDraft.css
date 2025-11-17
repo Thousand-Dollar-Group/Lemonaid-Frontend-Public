@@ -1,0 +1,118 @@
+/* src/components/EmailDraft.css */
+
+.email-fields {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.email-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-bottom: 1px solid #b3b3b3;
+  padding-bottom: 16px;
+}
+.email-header input {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  color: #333;
+  font-size: 1.5vw;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.email-header input::selection {
+  background-color: #87ceeb;
+  color: #ffffff;
+}
+
+.email-header input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.close-btn {
+  /* background: transparent; */
+  /* font-size: 2vw; */
+  cursor: pointer;
+  /* color: #000000; */
+  /* padding: 0px;
+  margin: 0px; */
+}
+
+.field-row {
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #b3b3b3;
+}
+
+.field-row:last-of-type {
+  border-bottom: none;
+}
+
+.field-row label {
+  display: flex;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: 48px;
+  min-height: 24px;
+  font-weight: 400;
+  color: #555;
+  text-align: left;
+  font-size: 1vw;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.field-row input {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  color: #333;
+  font-size: 1vw;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.field-row input::selection {
+  background-color: #87ceeb;
+  color: #ffffff;
+}
+
+.field-row input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.email-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 16px;
+  resize: none;
+}
+
+.email-body textarea {
+  display: flex;
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  line-height: 1.5;
+  color: #333;
+  font-size: 1vw;
+  resize: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  scrollbar-color: #808080 transparent;
+}
+
+.email-body textarea::selection {
+  background-color: #87ceeb;
+  color: #ffffff;
+}
+
+.email-body textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
