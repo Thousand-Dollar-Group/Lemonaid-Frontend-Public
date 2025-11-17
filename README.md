@@ -16,7 +16,7 @@ Key Features Include:
 
 This public version of the project has been modified to comply with data sharing agreements. All data and underlying support previously supplied by our external supply chain collaboration partner have been removed.
 
-Backend Contributors:
+Frontend Contributors:
 | Contributor | GitHub Profile |
 | :--- | :--- |
 | **Tim** | [Tim](https://github.com/timjtchang) |
